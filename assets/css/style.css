@@ -782,7 +782,8 @@ footer .footer-bottom img {
     line-height: 21px;
     margin: 3px;
 }
-#productcategories .product-price .white{
+
+#productcategories .product-price .white {
     font-size: 0;
     width: 12px;
     background: #fff;
@@ -797,7 +798,8 @@ footer .footer-bottom img {
     line-height: 21px;
     margin: 3px;
 }
-#productcategories .col-4 .select{
+
+#productcategories .col-4 .select {
     width: auto;
     height: auto;
     padding: 0;
@@ -808,8 +810,9 @@ footer .footer-bottom img {
     background: 0 0;
     opacity: 1;
 }
-#productcategories .product-price .color1{
-    background: url('../img/colo1.webp') no-repeat center ;
+
+#productcategories .product-price .color1 {
+    background: url('../img/colo1.webp') no-repeat center;
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -824,8 +827,9 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
-#productcategories .color .color2{
-    background: url('../img/color2.webp') no-repeat center ;
+
+#productcategories .color .color2 {
+    background: url('../img/color2.webp') no-repeat center;
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -840,8 +844,9 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
-#productcategories .product-price .color3{
-    background: url('../img/color3.webp') no-repeat center ;
+
+#productcategories .product-price .color3 {
+    background: url('../img/color3.webp') no-repeat center;
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -856,9 +861,11 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
-#productcategories .product-price del{
+
+#productcategories .product-price del {
     color: #707070;
 }
+
 #productcategories .product-price .beige {
     background-color: #d5bda3;
     font-size: 0;
@@ -874,6 +881,7 @@ footer .footer-bottom img {
     line-height: 21px;
     margin: 3px;
 }
+
 #productcategories .product-price .gray {
     background-color: #8f8f8f;
     font-size: 0;
@@ -889,8 +897,9 @@ footer .footer-bottom img {
     line-height: 21px;
     margin: 3px;
 }
-#productcategories .product-price .color4{
-    background: url('../img/color4.webp') no-repeat center ;
+
+#productcategories .product-price .color4 {
+    background: url('../img/color4.webp') no-repeat center;
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -905,8 +914,9 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
-#productcategories .product-price .color5{
-    background: url('../img/color5.webp') no-repeat center ;
+
+#productcategories .product-price .color5 {
+    background: url('../img/color5.webp') no-repeat center;
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -921,8 +931,9 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
-#productcategories .product-price .color6{
-    background: url('../img/color6.webp') no-repeat center ;
+
+#productcategories .product-price .color6 {
+    background: url('../img/color6.webp') no-repeat center;
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -937,8 +948,9 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
-#productcategories .product-price .color7{
-    background: url('../img/color7.webp') no-repeat center ;
+
+#productcategories .product-price .color7 {
+    background: url('../img/color7.webp') no-repeat center;
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -953,8 +965,9 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
-#productcategories .product-price .color8{
-    background: url('../img/color8.webp') no-repeat center ;
+
+#productcategories .product-price .color8 {
+    background: url('../img/color8.webp') no-repeat center;
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -969,10 +982,12 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
-#productcategories .pagination{
+
+#productcategories .pagination {
     margin-top: 50px;
 }
-#productcategories .pagination ul li .page{
+
+#productcategories .pagination ul li .page {
     color: #fff;
     border-color: #313030;
     display: block;
@@ -986,7 +1001,8 @@ footer .footer-bottom img {
     background-color: #313030;
     text-decoration: none;
 }
-#productcategories .pagination ul li .page-numbers{
+
+#productcategories .pagination ul li .page-numbers {
     color: #313030;
     display: block;
     height: 44px;
@@ -999,8 +1015,88 @@ footer .footer-bottom img {
     background-color: #fff;
     text-decoration: none;
 }
-#productcategories .pagination ul li .page-numbers:hover{
+
+#productcategories .pagination ul li .page-numbers:hover {
     color: #fff;
     border: 1px solid #313030;
     background-color: #313030;
+}
+
+#productcategories .filter {
+    margin-bottom: 23px;
+    text-align: left;
+    position: relative;
+    font-style: normal;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#productcategories .price-slider {
+    background: #d1d1d1 !important;
+    box-shadow: none;
+    cursor: pointer;
+    height: 3px;
+    margin: 0 0 15px;
+    width: 100%;
+    position: relative;
+    border-radius: 0 !important;
+}
+
+#productcategories .slider-range {
+    left: 0%;
+    width: 100%;
+    background: #000;
+    border: none;
+    box-shadow: none;
+    height: 100%;
+}
+
+#productcategories .slider-range span {
+    display: flex;
+    height: 13px;
+    line-height: 13px;
+    margin: 0;
+    text-align: center;
+    top: 50%;
+    width: 13px;
+    border: 3px solid black;
+    position: absolute;
+    z-index: 2;
+    border-radius: 100%;
+    transform: translate(0, -50%);
+    cursor: ew-resize;
+}
+
+#productcategories .slider-range span:nth-child(1) {
+    left: 0%;
+}
+
+#productcategories .price-label {
+    height: 32px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#productcategories .slider-range span:nth-child(2) {
+    left: 100%;
+}
+#productcategories .btn-filter {
+    background: #313030;
+    box-shadow: none;
+    display: block;
+    float: right !important;
+    height: auto;
+    border: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    text-shadow: none;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
 }
