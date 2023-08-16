@@ -1624,3 +1624,58 @@ color: #707070;
     font-size: 0;
     position: relative;
 }
+ /* WOMEN'S TSHIRT */
+ #tshirt{
+    margin-top: 30px;
+ }
+ #tshirt .breadcrumpt li a{
+    color: #707070;
+ }
+ #tshirt  img{
+    max-width: 100%;
+    height: auto;
+ }
+ #tshirt .col-6 video{
+    max-width: 100%;
+    width: 100%;
+    height: 410px;
+ }
+ #tshirt .col-4 h1{
+    font-weight: 400;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    font-size: 35px;
+    margin-top: 40px;
+ }
+ #tshirt .rating{
+    font-size: 14px;
+ }
+ #tshirt .rating a {
+    color: black;
+ }
+ #tshirt p{
+    color: #707070;
+ }
+ #tshirt .price{
+    margin-top: 20px;
+    color: #707070;
+    display: flex;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ #tshirt .col-4 .desc{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dedede;
+ }
+ #tshirt .col-4 .size{
+    margin-top: 30px;
+    background: url('../img/size_chart_icon.webp') left center no-repeat;
+    padding-left: 40px;
+ }
+ #tshirt .col-4 .size a{
+    color: #707070;
+ }
