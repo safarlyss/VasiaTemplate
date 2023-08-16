@@ -1306,3 +1306,30 @@ padding-bottom: 30px;
     border-bottom: 1px solid #dedede;
     padding-bottom: 30px;
 }
+#productcategories .rating h5{
+    margin-bottom: 23px;
+    text-align: left;
+    position: relative;
+    font-style: normal;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0;
+}
+#productcategories .rating{
+    padding-bottom: 30px;
+}
+#productcategories .star ul{
+    padding: 0;
+    margin: 0;
+}
+#productcategories .star ul li a{
+    font-size: 12px;
+}
+#productcategories .star ul li .black{
+    color: black;
+}
+#productcategories .star ul li .gray{
+    color: gray;
+}
