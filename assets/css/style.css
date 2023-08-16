@@ -969,3 +969,38 @@ footer .footer-bottom img {
     font-size: 0;
     position: relative;
 }
+#productcategories .pagination{
+    margin-top: 50px;
+}
+#productcategories .pagination ul li .page{
+    color: #fff;
+    border-color: #313030;
+    display: block;
+    height: 44px;
+    width: 44px;
+    padding: 0;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 0;
+    background-color: #313030;
+    text-decoration: none;
+}
+#productcategories .pagination ul li .page-numbers{
+    color: #313030;
+    display: block;
+    height: 44px;
+    width: 44px;
+    padding: 0;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 0;
+    background-color: #fff;
+    text-decoration: none;
+}
+#productcategories .pagination ul li .page-numbers:hover{
+    color: #fff;
+    border: 1px solid #313030;
+    background-color: #313030;
+}
