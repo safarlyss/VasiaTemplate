@@ -1270,3 +1270,23 @@ footer .footer-bottom img {
     background: url('../img/othercolor2.webp');
     background-size: cover;
 }
+#productcategories .size{
+    margin-bottom: 23px;
+    text-align: left;
+    position: relative;
+    font-style: normal;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0;
+}
+#productcategories .sizes input{
+    color: #707070;
+    background-color: #707070;
+    border-color: #707070;
+}
+#productcategories .sizes{
+border-bottom: 1px solid #dedede;
+padding-bottom: 30px;
+}
