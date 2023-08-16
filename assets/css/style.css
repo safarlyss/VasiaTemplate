@@ -1831,3 +1831,10 @@ color: #707070;
  #products h2{
     font-weight: 400;
  }
+ #tshirt .color{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ #tshirt .color a{
+    color: #707070;
+ }

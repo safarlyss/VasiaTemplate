@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/logo-vasia.webp" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruthie&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="topbar-header">
+            <div class="row mx-0">
+                <div class="col-5 d-flex flex-row">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                    </ul>
+                    <div class="header-html">
+                        <div class="top-phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="#"><span>+68 6886 6888</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-4 d-flex flex-row">
+                    <div class="account">
+                        <a href="#">
+                            <i class="fa-regular fa-user"></i>
+                            <span>Sign in</span>
+                        </a>
+                    </div>
+                    <div class="language">
+                        <span>Languages</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <div class="languages-sub-menu">
+                            <ul class="p-0 d-flex flex-column">
+                                <li style="background: #f5f5f5;"><a href="#">English</a></li>
+                                <li><a href="#">Germany</a></li>
+                                <li><a href="#">France</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="currencies">
+                        <span>Currencies</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <div class="languages-sub-menu">
+                            <ul class="p-0 d-flex flex-column">
+                                <li style="background: #f5f5f5;"><a href="#">USD</a></li>
+                                <li><a href="#">Euro</a></li>
+                                <li><a href="#">GBP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="row mx-0">
+                <div class="col-2">
+                    <a href="#"><img src="assets/img/logo_vasia.svg" alt=""></a>
+                </div>
+                <div class="col-8">
+                    <ul class="d-flex flex-row">
+                        <li><a href="#" style="border-bottom:  2px solid black; padding-bottom: 5px;">Home
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li><a href="#">Shop
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a></li>
+                        <li><a href="#">Product
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a></li>
+                        <li><a href="#">Page
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a></li>
+                        <li><a href="#">Categories
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a></li>
+                        <li><a href="#">Blog
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <a href="#" class="mx-2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="tshirt">
+            <div class="container-fluid">
+                <div class="row mx-0">
+                    <div class="breadcrumpt">
+                        <ul class="d-flex flex-row m-0 p-0">
+                            <li class="mx-2"><a href="#"><span>Home</span></a></li>>
+                            <li class="mx-2"><a href="#"><span>Shop</span></a></li>>
+                            <li class="mx-2"><a href="#"><span>Jeans</span></a></li>>
+                            <li class="mx-2"><span>Polo Ralph Lauren Oxford Shirt</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <div class="desc">
+                            <h1>Polo Ralph Lauren Oxford Shirt</h1>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <a href="#"><span> (6 customer reviews)</span></a>
+                            </div>
+                            <p class="price">
+                                <span>$60.00</span>
+                                <span>-</span>
+                                <span>$80.00</span>
+                            </p>
+                            <p>The Neke Dri-FIT Sport Clash Shirt has you covered before, during and after workouts and
+                                competition with lightweight, sweat-wicking fabric that helps keep you dry and moving
+                                freely.</p>
+                        </div>
+                        <div class="size"><a href="#">Size Chart</a></div>
+                        <div class="color"><a href="#">Color</a></div>
+
+                        <div class="sizes">
+                            <span style="margin-right: 15px;">Size</span>
+                            <span class="swatch">L</span>
+                            <span class="swatch">M</span>
+                            <span class="swatch">S</span>
+                            <span class="swatch">XL</span>
+                            <span class="swatch">XS</span>
+                            <span class="swatch">XXL</span>
+                        </div>
+                        <div class="quantity">
+                            <input type="button" value="-">
+                            <input type="number" min="1" max="209" value="1">
+                            <input type="button" value="+">
+                        </div>
+                        <button type="submit"> Add to cart</button>
+                        <div class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>Add to wishlist</span>
+                        </div>
+                        <div class="meta d-flex flex-column">
+                            <span>SKU:
+                                <span>N/A</span>
+                            </span>
+                            <span class="mt-2">Categories:
+                                <a href="#">Gym clothes</a>,
+                                <a href="#">Jeans</a>,
+                                <a href="#">New In</a>,
+                                <a href="#">Polo shirts</a>,
+                                <a href="#">Shirt</a>,
+                                <a href="#">Shop</a>,
+                                <a href="#">Sunglasses</a>,
+                                <a href="#">Wallets & Small Accessories</a>
+                            </span>
+                            <div class="share d-flex flex-row">
+                                <span>SHARE</span>
+                                <ul class="d-flex flex-row m-0 p-0">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+
+                        <div class="row mx-0">
+                            <div class="col-6 video">
+                                <video controls>
+                                    <source
+                                        src="assets/img/kl_ttermusen_eir_tee_short_sleeve_L5J6QWO7B0Y_mp4_1080202105181422.mp4"
+                                        type="video/mp4">">
+                                </video>
+                            </div>
+                            <div class="col-6">
+                                <a href="#"><img src="assets/img/tshirt1.webp" alt=""></a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#"><img src="assets/img/tshirt2.webp" alt=""></a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#"><img src="assets/img/tshirt3.webp" alt=""></a>
+                            </div>
+                            <div class="col-12">
+                                <a href="#"><img src="assets/img/tshirt4.webp" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="tabs">
+            <div class="container-fluid">
+                <div class="row mx-0">
+                    <ul class="d-flex flex-row justify-content-center">
+                        <li class="active"><a href="#">Description</a></li>
+                        <li class="tabs"><a href="#"> Additional information</a></li>
+                        <li class="tabs"><a href="#">Reviews (7)</a></li>
+                        <li class="tabs"><a href="#"> Delivery Information</a></li>
+                    </ul>
+                    <h4>EVERY STITCH CONSIDERED.</h4>
+                    <p>Technical without looking it, this easy-fitting top breathes naturally for a design that’s
+                        effortlessly cool.The seamless front panel gives way to a cut-and-sew construction at the
+                        shoulders for a tailored feel.</p>
+                    <h5>Seriously Soft</h5>
+                    <p>Irresistibly soft with a subtle drape, this silk cotton blend adds a luxe feel that moves and
+                        falls naturally on your frame.</p>
+                    <h5>Detail Orientated</h5>
+                    <p>Like any high-end piece, the difference is in the details.Cut-and-sew seam lines provide a
+                        tailored fit while a tightly knitted ribbed collar ensures long-lasting comfort and style.</p>
+                    <h5>Mix and Match</h5>
+                    <p>Relaxed and ready for any occasion, this styling piece adds punch to your everyday staples.</p>
+                    <h5>Not Too Technical</h5>
+                    <p>Mesh panels drop down from the shoulder seams to increase airflow and breathability to keep you
+                        cool.</p>
+                    <h5>Product Details</h5>
+                    <ul style="list-style-type: disc !important; " >
+                        <li>Standard fit for a relaxed, easy feel</li>
+                        <li>70% cotton/30% silk</li>
+                        <li>Imported</li>
+                        <li>Made in Italy</li>
+                        <li>Colour Shown: White</li>
+                        <li>Style: DH2914-100</li>
+                        <li>Country/Region of Origin: Italy</li>
+                    </ul>
+                    <h5>Every Stitch Considered</h5>
+                    <p>With craft as its underlying principle, Every Stitch Considered (ESC) blends traditional and
+                        contemporary elements to create high-end fashion pieces that are as relevant as they are
+                        timeless.Designed for movement and comfort, every
+                        <br>
+                        collection features the finest materials and is manufactured to meet the demands of athletes
+                        everywhere.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container-fluid">
+                <div class="row mx-0">
+                    <h2 class="text-center">Upsell products</h2>
+                    <div class="col-3">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="image" src="assets/img/upsell6.webp" alt="">
+                                <img class="hover" src="assets/img/upsell5.webp" alt="">
+                            </a>
+                            <div class="quickview"><a href="#">Quick View</a></div>
+                            <div class="link">
+                                <a href="#" class="solid">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h6><a href="#">Classic Cotton Button Down With Placket</a></h6>
+                        </div>
+                        <div class="product-price d-flex flex-row">
+                            <a href="#" class="price">
+                                <span style="margin-right: 20px;">$79.00</span>
+                            </a>
+                            <a href="#" class="select">
+                                <span class="select">Select options</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="image" src="assets/img/upsell7.webp" alt="">
+                                <img class="hover" src="assets/img/upsell8.webp" alt="">
+                            </a>
+                            <div class="quickview"><a href="#">Quick View</a></div>
+                            <div class="link">
+                                <a href="#" class="solid">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h6><a href="#">Men’s Short-Sleeve Running Top</a></h6>
+                        </div>
+                        <div class="product-price d-flex flex-row">
+                            <span style="margin-right: 70px;">$55.00-$80.00</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="image" src="assets/img/upsell9.webp" alt="">
+                                <img class="hover" src="assets/img/upsell10.webp" alt="">
+                            </a>
+                            <div class="quickview"><a href="#">Quick View</a></div>
+                            <div class="link">
+                                <a href="#" class="solid">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h6><a href="#">Classic Cotton Button Down With Placket</a></h6>
+                        </div>
+                        <div class="product-price d-flex flex-row">
+                            <a href="#" class="price">
+                                <span style="margin-right: 20px;">$45.00-$80.00</span>
+                            </a>
+                            <a href="#" class="select">
+                                <span class="select">Select options</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="image" src="assets/img/upsell11.webp" alt="">
+                                <img class="hover" src="assets/img/upsell12.webp" alt="">
+                            </a>
+                            <div class="quickview"><a href="#">Quick View</a></div>
+                            <div class="link">
+                                <a href="#" class="solid">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h6><a href="#">Classic Cotton Button Down With Placket</a></h6>
+                        </div>
+                        <div class="product-price d-flex flex-row">
+                            <a href="#" class="price">
+                                <span style="margin-right: 20px;">$45.00-$76.00</span>
+                            </a>
+                            <a href="#" class="select">
+                                <span class="select">Select options</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container-fluid">
+                <div class="row mx-0">
+                    <h2 class="text-center">Related Products</h2>
+                    <div class="col-3">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="image" src="assets/img/related1.webp" alt="">
+                                <img class="hover" src="assets/img/related2.webp" alt="">
+                            </a>
+                            <div class="quickview"><a href="#">Quick View</a></div>
+                            <div class="link">
+                                <a href="#" class="solid">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h6><a href="#">Classic Cotton Button Down With Placket</a></h6>
+                        </div>
+                        <div class="product-price d-flex flex-row">
+                            <a href="#" class="price">
+                                <span style="margin-right: 20px;">$86.00</span>
+                            </a>
+                            <a href="#" class="select">
+                                <span class="select">Select options</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="image" src="assets/img/pr99.webp" alt="">
+                                <img class="hover" src="assets/img/pr9hover.webp" alt="">
+                            </a>
+                            <div class="quickview"><a href="#">Quick View</a></div>
+                            <div class="link">
+                                <a href="#" class="solid">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h6><a href="#">Men’s Short-Sleeve Running Top</a></h6>
+                        </div>
+                        <div class="product-price d-flex flex-row">
+                            <span style="margin-right: 70px;">$55.00-$70.00</span>
+                            <div class="color">
+                                <span class="color4">Blue</span>
+                                <span class="color5">OtherColor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="image" src="assets/img/related5.webp" alt="">
+                                <img class="hover" src="assets/img/related6.webp" alt="">
+                            </a>
+                            <div class="quickview"><a href="#">Quick View</a></div>
+                            <div class="link">
+                                <a href="#" class="solid">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h6><a href="#">Classic Cotton Button Down With Placket</a></h6>
+                        </div>
+                        <div class="product-price d-flex flex-row">
+                            <a href="#" class="price">
+                                <span style="margin-right: 20px;">$110.00</span>
+                            </a>
+                            <a href="#" class="select">
+                                <span class="select">Select options</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="image" src="assets/img/upsell4.webp" alt="">
+                                <img class="hover" src="assets/img/upsell3.webp" alt="">
+                            </a>
+                            <div class="quickview"><a href="#">Quick View</a></div>
+                            <div class="link">
+                                <a href="#" class="solid">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h6><a href="#">Classic Cotton Button Down With Placket</a></h6>
+                        </div>
+                        <div class="product-price d-flex flex-row">
+                            <a href="#" class="price">
+                                <span style="margin-right: 20px;">$90.00</span>
+                            </a>
+                            <a href="#" class="select">
+                                <span class="select">Select options</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row mx-0">
+                <div class="col-3">
+                    <h5>Company</h5>
+                    <ul class="m-0 p-0">
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">My account</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Store Locator</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h5>Information </h5>
+                    <ul class="m-0 p-0">
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Store Locator </a></li>
+                        <li><a href="#">Wishlist </a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h5>Help</h5>
+                    <ul class="m-0 p-0">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h5>Follow Us</h5>
+                    <ul class="m-0 p-0">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f mx-2"></i>Facebook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter mx-2"></i>Twitter</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram mx-2"></i>Instagram</a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube mx-2"></i>Youtube </a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest-p mx-2"></i>Pinterest </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container-fluid">
+                <div class="row mx-0">
+                    <div class="col-8">
+                        <p>Copyright © PlazaThemes. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/img/payment.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
