@@ -1084,6 +1084,7 @@ footer .footer-bottom img {
 #productcategories .slider-range span:nth-child(2) {
     left: 100%;
 }
+
 #productcategories .btn-filter {
     background: #313030;
     box-shadow: none;
@@ -1099,4 +1100,173 @@ footer .footer-bottom img {
     text-transform: capitalize;
     text-align: center;
     color: white;
+}
+
+#productcategories .price-amount {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 50px;
+}
+
+#productcategories .colors {
+    margin-top: 100px;
+    padding: 0;
+}
+
+#productcategories .color-filter {
+    position: relative;
+}
+
+#productcategories .color-filter li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 7px 7px 0 !important;
+}
+
+#productcategories .color-filter li .filter-swatch {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 3px;
+    border: 1px solid #e5e5e5;
+    border-radius: 100%;
+}
+
+#productcategories .color-filter li .filter-swatch span {
+    width: 22px;
+    height: 22px;
+    font-size: 0;
+    display: block;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+#productcategories .color-filter li .filter-swatch .aquamarine {
+    background-color: #458b74;
+
+}
+
+#productcategories .color-filter li .layer-term {
+    position: absolute;
+    width: 90px;
+    background: #fff;
+    z-index: 999;
+    border: 1px solid #ebebeb;
+    padding: 5px;
+    text-align: center;
+    bottom: calc(100% + 10px);
+    left: 10%;
+    margin-left: -45px;
+    color: #222;
+    visibility: hidden;
+}
+
+#productcategories .color-filter li .layer-term span {
+    width: 100%;
+    height: 80px;
+    font-size: 0;
+    display: block;
+    background-size: cover;
+
+}
+
+#productcategories .color-filter li .layer-term .aquamarine {
+    background-color: #458b74;
+}
+
+#productcategories .color-filter li .layer-term::after {
+    border-color: #fff transparent transparent;
+    border-width: 7px 7.5px 0;
+    left: 37px;
+    bottom: -7px;
+}
+
+#productcategories .color-filter li .layer-term::before {
+    border-color: #ebebeb transparent transparent;
+    border-width: 8px 8.5px 0;
+    left: 36px;
+    bottom: -8px;
+}
+
+#productcategories .color-filter .inner a:hover .color-filter li .layer-term {
+    visibility: visible;
+    opacity: 1;
+}
+
+#productcategories .color-filter li .layer-term .beige {
+    background-color: #d5bda3;
+}
+
+#productcategories .color-filter li .filter-swatch .beige {
+    background-color: #d5bda3;
+}
+
+#productcategories .color-filter li .layer-term .black {
+    background-color: black;
+}
+
+#productcategories .color-filter li .filter-swatch .black {
+    background-color: black;
+}
+
+#productcategories .color-filter li .layer-term .blue {
+    background-color: #24c4f4;
+}
+
+#productcategories .color-filter li .filter-swatch .blue {
+    background-color: #24c4f4;
+}
+
+#productcategories .color-filter li .layer-term .coral {
+    background-color: #dc9883;
+}
+
+#productcategories .color-filter li .filter-swatch .coral {
+    background-color: #dc9883;
+}
+#productcategories .color-filter li .layer-term .darkseagreen {
+    background-color: #b4eeb4;
+}
+
+#productcategories .color-filter li .filter-swatch .darkseagreen {
+    background-color: #b4eeb4;
+}
+#productcategories .color-filter li .layer-term .gray {
+    background-color: #8f8f8f;
+}
+
+#productcategories .color-filter li .filter-swatch .gray {
+    background-color: #8f8f8f;
+}
+#productcategories .color-filter li .layer-term .gray23 {
+    background-color: #3b3b3b;
+}
+
+#productcategories .color-filter li .filter-swatch .gray23 {
+    background-color: #3b3b3b;
+}
+#productcategories .color-filter li .layer-term .NavajoWhite {
+    background-color: #d8ac7b;
+}
+
+#productcategories .color-filter li .filter-swatch .NavajoWhite {
+    background-color: #d8ac7b;
+}
+#productcategories .color-filter li .layer-term .othercolor1 {
+    background: url('../img/Other-color1-1.webp');
+    background-size: cover;
+}
+
+#productcategories .color-filter li .filter-swatch .othercolor1 {
+    background: url('../img/Other-color1-1.webp');
+    background-size: cover;
+}
+#productcategories .color-filter li .layer-term .othercolor2 {
+    background: url('../img/othercolor2.webp');
+    background-size: cover;
+}
+
+#productcategories .color-filter li .filter-swatch .othercolor2 {
+    background: url('../img/othercolor2.webp');
+    background-size: cover;
 }
