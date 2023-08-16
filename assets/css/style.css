@@ -661,7 +661,7 @@ footer .footer-bottom img {
     visibility: visible;
 }
 
-#productcategories .col-4 .quickview {
+#productcategories  .quickview {
     background: rgba(255, 255, 255, .9);
     padding: 0 10px;
     line-height: 40px;
@@ -687,11 +687,11 @@ footer .footer-bottom img {
     width: 100%;
 }
 
-#productcategories .col-4 .quickview a {
+#productcategories .quickview a {
     color: black;
 }
 
-#productcategories .col-4 .product-image:hover .quickview {
+#productcategories .product-image:hover .quickview {
     visibility: visible;
 
 }
@@ -1351,4 +1351,276 @@ padding-bottom: 30px;
 #productcategories .tags .tag-cloud a:hover{
     color: #fff;
     background-color: black;
+}
+#products .product-image .hover{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    height: auto;
+    max-width: 100%;
+    width: 280px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+header .sub-menu img{
+    max-width: 100%;
+    height: auto;
+}
+#products .quickview{
+    background: rgba(255, 255, 255, .9);
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #707070;
+    pointer-events: visible;
+    box-shadow: none;
+    border: 0;
+    margin-top: -25px;
+    text-shadow: none;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    visibility: hidden;
+    height: auto;
+    border-radius: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all .4s ease-out;
+    font-weight: 400;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+#products .col-3 .hover{
+    position: absolute;
+    top: 0;
+    height: auto;
+    visibility: hidden;
+    max-width: 100%;
+    width: 600px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#products .col-3 .image{
+    transition: all .3s ease-in-out;
+    height: auto;
+    margin-top: 30px;
+    width: 600px;
+    max-width: 100%;
+}
+#products .col-3 .quickview a{
+color: #707070;
+}
+#products .col-3 a:hover .hover{
+    visibility: visible;
+}
+#products .col-3 .product-image{
+    position: relative;
+}
+#products .col-3 .link .regular:hover .solid {
+    visibility: visible;
+}
+#products .col-3 .link {
+    margin: 0;
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    top: 20px;
+    opacity: 1;
+    visibility: hidden;
+    z-index: 5;
+}
+
+#products .col-3 .link a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-color: black;
+    padding: 0;
+    border-radius: 100%;
+    background: #fff;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#products .col-3 .product-image:hover .link {
+    visibility: visible;
+}
+
+#products .col-3 .link a:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+
+}
+#products .col-3 h6 a {
+    color: #7a7a7a;
+}
+
+#products .product-price span {
+    color: #707070;
+}
+
+#products .product-title:hover .col-3 .quickview {
+    visibility: visible;
+}
+
+#products .product-price .color {
+    margin-right: -50px;
+}
+
+#products .product-price .blue {
+    background-color: #24c4f4;
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+}
+
+#products .product-price .other {
+    font-size: 0;
+    background: url('../img/Other-color3.webp');
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+}
+
+#products .product-price .white {
+    font-size: 0;
+    width: 12px;
+    background: #fff;
+    height: 12px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+}
+
+#products .col-3 .select {
+    width: auto;
+    height: auto;
+    padding: 0;
+    font-size: 16px;
+    visibility: hidden;
+    color: #707070;
+    border: 0;
+    background: 0 0;
+    opacity: 1;
+}
+#products .product-price .color1 {
+    background: url('../img/colo1.webp') no-repeat center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+    border-radius: 100%;
+    font-size: 0;
+    position: relative;
+}
+
+#products .color .color2 {
+    background: url('../img/color2.webp') no-repeat center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+    border-radius: 100%;
+    font-size: 0;
+    position: relative;
+}
+
+#products .product-price .color3 {
+    background: url('../img/color3.webp') no-repeat center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+    border-radius: 100%;
+    font-size: 0;
+    position: relative;
+}
+#products .product-title:hover .col-3 .quickview {
+    visibility: visible;
+}
+#products .product-image:hover .quickview {
+    visibility: visible;
+
+}
+
+#products .product-price .color4 {
+    background: url('../img/color4.webp') no-repeat center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+    border-radius: 100%;
+    font-size: 0;
+    position: relative;
+}
+
+#products .product-price .color5 {
+    background: url('../img/color5.webp') no-repeat center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+    border-radius: 100%;
+    font-size: 0;
+    position: relative;
 }
