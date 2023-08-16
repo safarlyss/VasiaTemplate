@@ -1290,3 +1290,19 @@ footer .footer-bottom img {
 border-bottom: 1px solid #dedede;
 padding-bottom: 30px;
 }
+#productcategories .brand{
+    margin-bottom: 23px;
+    text-align: left;
+    position: relative;
+    font-style: normal;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0;
+}
+#productcategories .brands{
+    color: #707070;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 30px;
+}
