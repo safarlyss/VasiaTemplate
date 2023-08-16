@@ -1317,9 +1317,6 @@ padding-bottom: 30px;
     margin-top: 20px;
     padding: 0;
 }
-#productcategories .rating{
-    padding-bottom: 30px;
-}
 #productcategories .star ul{
     padding: 0;
     margin: 0;
@@ -1332,4 +1329,26 @@ padding-bottom: 30px;
 }
 #productcategories .star ul li .gray{
     color: gray;
+}
+#productcategories .tags{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#productcategories .tags .tag-cloud a{
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 6px 10px 0;
+    padding: 0 17px;
+    transition: .2s ease;
+    line-height: 38px;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+    text-transform: capitalize;
+    vertical-align: top;
+    color: #707070;
+    text-decoration: none;
+}
+#productcategories .tags .tag-cloud a:hover{
+    color: #fff;
+    background-color: black;
 }
