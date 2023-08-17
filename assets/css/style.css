@@ -1838,3 +1838,22 @@ color: #707070;
  #tshirt .color a{
     color: #707070;
  }
+/*  
+ .fullsize{
+    z-index: 9999;
+    cursor: zoom-out;
+    display: block;
+    width: 600px;
+    max-width: 600px;
+    height: 600px;
+    position: fixed;
+    left: 100px;
+    top:30px;
+ } */
+ .img-zoom{
+    position: relative;
+    z-index: 999999;
+ }
+ .img-zoom img{
+    position: absolute;
+ }
