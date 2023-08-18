@@ -18,3 +18,6 @@ var options6 = {
     offset: {vertical: 0, horizontal: 10}
 };
 new ImageZoom(document.getElementById("img-zoommm"), options6);
+////////////////////////////////////////////////////
+
+
