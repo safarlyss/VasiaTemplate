@@ -8,17 +8,20 @@
     .main-header .col-2 .fa-magnifying-glass{
         display: none;
     }
-    .main-header .icon{
-        margin-left: 200px;
-    }
+     .main-header .icon{
+        margin-left: 180px;
+    } 
     .main-header .logo{
-        margin-left: 250px;
-    }
+        margin-left: 400px;
+    } 
     #designers .retroband{
         display: none;
     }
     #products .product-none{
         display: none !important;
+    }
+    #tshirt .col-8 .zoom{
+        display: none ;
     }
  }
  @media screen and (max-width:768px){

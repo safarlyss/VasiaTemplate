@@ -628,11 +628,11 @@ footer .footer-bottom img {
     background-position-x: 95%;
 }
 
-#productcategories .col-4 {
+#productcategories .col-lg-4 {
     position: relative;
 }
 
-#productcategories .col-4 a .image {
+#productcategories .col-lg-4 a .image {
     transition: all .3s ease-in-out;
     height: auto;
     margin-top: 30px;
@@ -640,11 +640,11 @@ footer .footer-bottom img {
     max-width: 100%;
 }
 
-#productcategories .col-4 a {
+#productcategories .col-lg-4 a {
     transition: all .3s ease-in-out;
 }
 
-#productcategories .col-4 .hover {
+#productcategories .col-lg-4 .hover {
     position: absolute;
     top: 0;
     height: auto;
@@ -657,7 +657,7 @@ footer .footer-bottom img {
     margin: auto;
 }
 
-#productcategories .col-4 a:hover .hover {
+#productcategories .col-lg-4 a:hover .hover {
     visibility: visible;
 }
 
@@ -696,7 +696,7 @@ footer .footer-bottom img {
 
 }
 
-#productcategories .col-4 .link {
+#productcategories .col-lg-4 .link {
     margin: 0;
     position: absolute;
     right: 20px;
@@ -707,7 +707,7 @@ footer .footer-bottom img {
     z-index: 5;
 }
 
-#productcategories .col-4 .link a {
+#productcategories .col-lg-4 .link a {
     width: 36px;
     height: 36px;
     line-height: 36px;
@@ -722,20 +722,20 @@ footer .footer-bottom img {
     vertical-align: top;
 }
 
-#productcategories .col-4 .product-image:hover .link {
+#productcategories .col-lg-4 .product-image:hover .link {
     visibility: visible;
 }
 
-#productcategories .col-4 .link a:hover {
+#productcategories .col-lg-4 .link a:hover {
     transform: scale3d(1.1, 1.1, 1.1);
 
 }
 
-#productcategories .col-4 .link .regular:hover .solid {
+#productcategories .col-lg-4 .link .regular:hover .solid {
     visibility: visible;
 }
 
-#productcategories .col-4 h6 a {
+#productcategories .col-lg-4 h6 a {
     color: #7a7a7a;
 }
 
@@ -743,7 +743,7 @@ footer .footer-bottom img {
     color: #707070;
 }
 
-#productcategories .product-title:hover .col-4 .quickview {
+#productcategories .product-title:hover .col-lg-4 .quickview {
     visibility: visible;
 }
 
@@ -799,7 +799,7 @@ footer .footer-bottom img {
     margin: 3px;
 }
 
-#productcategories .col-4 .select {
+#productcategories .col-lg-4 .select {
     width: auto;
     height: auto;
     padding: 0;
