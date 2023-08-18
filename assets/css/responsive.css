@@ -1,0 +1,33 @@
+ @media screen and (max-width:992px) {
+    .topbar-header{
+        display: none;
+    }
+    .main-header .col-8{
+        display: none;
+    }
+    .main-header .col-2 .fa-magnifying-glass{
+        display: none;
+    }
+    .main-header .icon{
+        margin-left: 250px;
+    }
+    .main-header .logo{
+        margin-left: 300px;
+    }
+    #designers .retroband{
+        display: none;
+    }
+    #products .product-none{
+        display: none !important;
+    }
+ }
+ @media screen and (max-width:768px){
+    #products .none{
+        display: none !important;
+    }
+ }
+ @media screen and (max-width:576px) {
+    #products .delete{
+        display: none !important;
+    }
+ }

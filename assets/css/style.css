@@ -150,7 +150,8 @@ header .main-header .col-2 span {
 }
 
 #slider {
-    background: url('../img/slider1-fashion1.webp');
+    background: url('../img/slider1-fashion1.webp') no-repeat 50%;
+    background-size: cover;
 }
 
 #slider .title {
@@ -221,7 +222,7 @@ header .main-header .col-2 span {
     color: #707070;
 }
 
-#products .col-xl-3 img {
+#products .col-lg-3 img {
     max-width: 100%;
     height: auto;
 }
@@ -1393,7 +1394,7 @@ header .sub-menu img{
     display: inline-block;
     width: 100%;
 }
-#products .col-xl-3 .hover{
+#products .col-lg-3 .hover{
     position: absolute;
     top: 0;
     height: auto;
@@ -1405,26 +1406,26 @@ header .sub-menu img{
     bottom: 0;
     margin: auto;
 }
-#products .col-xl-3 .image{
+#products .col-lg-3 .image{
     transition: all .3s ease-in-out;
     height: auto;
     margin-top: 30px;
     width: 600px;
     max-width: 100%;
 }
-#products .col-xl-3 .quickview a{
+#products .col-lg-3 .quickview a{
 color: #707070;
 }
-#products .col-xl-3 a:hover .hover{
+#products .col-lg-3 a:hover .hover{
     visibility: visible;
 }
-#products .col-xl-3 .product-image{
+#products .col-lg-3 .product-image{
     position: relative;
 }
-#products .col-xl-3 .link .regular:hover .solid {
+#products .col-lg-3 .link .regular:hover .solid {
     visibility: visible;
 }
-#products .col-xl-3 .link {
+#products .col-lg-3 .link {
     margin: 0;
     position: absolute;
     right: 20px;
@@ -1435,7 +1436,7 @@ color: #707070;
     z-index: 5;
 }
 
-#products .col-xl-3 .link a {
+#products .col-lg-3 .link a {
     width: 36px;
     height: 36px;
     line-height: 36px;
@@ -1450,15 +1451,15 @@ color: #707070;
     vertical-align: top;
 }
 
-#products .col-xl-3 .product-image:hover .link {
+#products .col-lg-3 .product-image:hover .link {
     visibility: visible;
 }
 
-#products .col-xl-3 .link a:hover {
+#products .col-lg-3 .link a:hover {
     transform: scale3d(1.1, 1.1, 1.1);
 
 }
-#products .col-xl-3 h6 a {
+#products .col-lg-3 h6 a {
     color: #7a7a7a;
 }
 
@@ -1466,7 +1467,7 @@ color: #707070;
     color: #707070;
 }
 
-#products .product-title:hover .col-xl-3 .quickview {
+#products .product-title:hover .col-lg-3 .quickview {
     visibility: visible;
 }
 
@@ -1522,7 +1523,7 @@ color: #707070;
     margin: 3px;
 }
 
-#products .col-xl-3 .select {
+#products .col-lg-3 .select {
     width: auto;
     height: auto;
     padding: 0;
@@ -1583,7 +1584,7 @@ color: #707070;
     font-size: 0;
     position: relative;
 }
-#products .product-title:hover .col-xl-3 .quickview {
+#products .product-title:hover .col-lg-3 .quickview {
     visibility: visible;
 }
 #products .product-image:hover .quickview {
