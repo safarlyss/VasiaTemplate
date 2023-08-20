@@ -2089,3 +2089,23 @@ opacity: 0.7;
     height: 30px;
     font-size: 12px;
 }
+#subcategories{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#subcategories a img{
+    border: 2px solid #ebebeb;
+    display: inline-block !important;
+}
+#subcategories .category-summary{
+    text-align: center;
+    padding: 10px 0 0;
+}
+#subcategories .category-summary .category-name{
+    font-weight: 600;
+    color: #313030;
+}
+#subcategories .category-summary .count-number{
+    font-size: 13px;
+    color: #707070;
+}
