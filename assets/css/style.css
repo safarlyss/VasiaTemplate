@@ -1660,10 +1660,10 @@ color: #707070;
  #tshirt .price{
     margin-top: 20px;
     color: #707070;
+    font-size: 18px;
     display: flex;
     line-height: 1;
     font-weight: 400;
-    font-size: 16px;
     align-items: center;
     flex-wrap: wrap;
  }
@@ -1943,3 +1943,149 @@ opacity: 0.7;
     height: 422px;
     width: 750px;
  }
+ #slider button.prev{
+    position: absolute;
+    top: 55%;
+    height: 50px;
+    line-height: 46px;
+    width: 50px;
+    padding: 0;
+    color: #313030;
+    background: 0 0;
+    left: 10px;
+    z-index: 3;
+    opacity: 1;
+    border: 2px solid #313030;
+    outline: none !important;
+    transform: translateY(-50%);
+ }
+ #slider button.prev:hover{
+    background-color: #313030;
+    color: white;
+    border-color: #313030;
+ }
+ #slider button.next:hover{
+    background-color: #313030;
+    color: white;
+    border-color: #313030;
+ }
+ #slider button.next{
+    position: absolute;
+    top: 55%;
+    height: 50px;
+    line-height: 46px;
+    right: 0;
+    width: 50px;
+    padding: 0;
+    color: #313030;
+    background: 0 0;
+    z-index: 3;
+    opacity: 1;
+    border: 2px solid #313030;
+    outline: none !important;
+    transform: translateY(-50%);
+ }
+ #tshirt .color .color11 {
+    background-image: url('../img/color11.webp');
+    font-size: 0;
+    width: 30px;
+    background-size: cover;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+}
+#tshirt .color .color12 {
+    background-image: url('../img/colo12.webp');
+    font-size: 0;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 3px;
+}
+#tshirt .variation-price {
+    color: #707070;
+    margin-top: 10px;
+}
+#tshirt .stock-count p{
+    color: #77a464;
+}
+#tshirt .sizes a{
+    font-size: 12px;
+    color: #000;
+}
+#tabs .disc li{
+    list-style-type: disc !important;
+    margin-left: 20px;
+}
+
+.breadcrumpt ul li  .active{
+    color: black !important;
+}
+#productcategories .breadcrumpt ul{
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+#productcategories .clothing{
+    border-bottom: 0;
+    border-top: 1px solid #dedede;
+    padding-top: 10px;
+}
+#productcategories .col-9 .title{
+    margin-top: 70px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#productcategories .col-9 .category img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+#productcategories .expand-content{
+    overflow: hidden;
+    max-height: 80px;
+    position: relative;
+    color: #707070;
+}
+#productcategories .block-expand-overlay{
+    background: linear-gradient(to bottom,transparent,rgba(248,248,248,1));
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: visible;
+}
+#productcategories .block-expand-overlay a{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #222;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff !important;
+    cursor: pointer;
+    width:80px;
+    height: 30px;
+    font-size: 12px;
+}
