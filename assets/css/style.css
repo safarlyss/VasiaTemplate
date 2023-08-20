@@ -2109,3 +2109,26 @@ opacity: 0.7;
     font-size: 13px;
     color: #707070;
 }
+#tshirt .zoom{
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+#tshirt .zoom img{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: scale(var(--zoom,1));
+    transform-origin: var(--x) var(--y);
+    transition: transform 0.3 ease;
+}
+#tshirt .zoom:hover img{
+    --zoom:3;
+}
+#tshirt .zoom a{
+    max-width: 100%;
+    width: 100%;
+}
