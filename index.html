@@ -117,17 +117,24 @@
         </div>
     </header>
     <main>
-        <section id="slider">
-            <div class="container">
-                <div class="row mx-0">
-                    <div class="slide-show col-sm-12">
-                        <button class="prev"><</button>
-                        <button class="next">></button>
-                        <div class="title">Men New Style</div>
-                        <div class="subtitle">Look good with fall’s fresh take on white T-Shirts</div>
+        <section aria-label="Newest photos">
+            <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev"><</button>
+            <button class="carousel-button next" data-carousel-button="next">></button>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <img src="assets/img/slider1-fashion1.webp"  alt="#image1">
+                        <div class="title">New Collection</div>
+                        <div class="subtitle">Shop our newest styles to keep you looking</div>
                         <a href="#" class="btn">shop now</a>
-                    </div>
-                </div>
+                    </li>
+                    <li class="slide">
+                        <img src="assets/img/slider2.webp" alt="#image2">
+                        <div class="title">New Collection</div>
+                        <div class="subtitle">Shop our newest styles to keep you looking</div>
+                        <a href="#" class="btn">shop now</a>
+                    </li>
+                </ul>
             </div>
         </section>
         <section id="designers">
@@ -428,7 +435,7 @@
                         <li><a href="#">Store Locator</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="col-3">
                     <h5>Information </h5>
                     <ul class="m-0 p-0">
@@ -468,12 +475,13 @@
                         <p>Copyright © PlazaThemes. All Rights Reserved.</p>
                     </div>
                     <div class="col-4">
-                        <img src="assets/img/payment.webp" alt="" >
+                        <img src="assets/img/payment.webp" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
