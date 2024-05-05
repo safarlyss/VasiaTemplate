@@ -640,9 +640,9 @@
                             <p>184 in stock</p>
                         </div>
                         <div class="quantity">
-                            <input type="button" value="-">
-                            <input type="number" min="1" max="209" value="1">
-                            <input type="button" value="+">
+                            <input type="button" value="-" id="decreaseBtn">
+                            <input type="number" min="1" max="209" value="1" id="quantityInput"  style="width: 100px; padding: 8px; text-align: center;">
+                            <input type="button" value="+" id="increaseBtn">
                         </div>
                         <button type="submit"> Add to cart</button>
                         <div class="wishlist">
@@ -993,6 +993,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/app.js"></script>
     <script src="assets/js/dress.js"></script>
     <script src="assets/js/popup.js"></script>
 </body>
